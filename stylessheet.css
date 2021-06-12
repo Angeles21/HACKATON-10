@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
+}
+body {
+	font-family: "Quicksand", sans-serif;
+	margin: 0;
+	padding: 0;
+	color: rgb(39, 39, 39);
+}
+hr {
+	text-align: center;
+	width: 30%;
+}
+
+.dash {
+	width: 100%;
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+h1 {
+	color: #eb4261;
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-style: italic;
+}
+h3 {
+	font-weight: bold;
+	font-size: 2.6rem;
+}
+
+/**/
+
+.background {
+	background-image: url(/img/wallpaper_1.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+.background-texts {
+	position: relative;
+	top: 33vh;
+	left: 6vh;
+	width: 50%;
+}
+
+.block {
+	padding: 8vh;
+}
+
+.box {
+	text-align: center;
+	padding: 2vh;
+	font-weight: bold;
+	background: rgba(255, 181, 85, 0.246);
+	border-radius: 20px;
+}
