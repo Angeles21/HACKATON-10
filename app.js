@@ -8,7 +8,7 @@ const persona = [
 ];
 const {name, lastname, age} = persona[0];
 let yabuki = persona.map(
-	(persona) => `Hola mi nombre es ${name} ${lastname} y mi edad es ${age}.`
+	(persona) => `Mi nombre es ${name} ${lastname} y mi edad es ${age}.`
 );
 
 console.log(yabuki);
@@ -38,6 +38,17 @@ const mezclas = [50, "Bravo", -2, "Alpha"];
 const noString = mezclas.filter((mezcla) => typeof mezcla !== "string");
 
 console.log(noString);
+
+// 6 -----------------------------------------
+
+const newArr = [-51, 20, 31, 24, -65, 62, 74, 90, 12, 1];
+
+const mini = Math.min(...newArr);
+const maxi = Math.max(...newArr);
+
+let ascendente = newArr.filter((arr) => {
+	console.log(` El orden de menor a mayor es (${mini}) - (${maxi})`);
+});
 
 // 8 -----------------------------------------
 
